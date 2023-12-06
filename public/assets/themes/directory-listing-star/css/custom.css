@@ -1,0 +1,709 @@
+.listar-userlogin span img {
+    display: block;
+}
+
+.listar-userlogin em {
+    padding: 0 10px 0 15px;
+}
+
+.listar-dropdownmen {
+    top: 100%;
+    left: 0;
+    border: 0;
+    padding: 0;
+    width: 200px;
+    margin: 18px 0 0;
+    border-radius: 10px;
+    border-color: #dbdbdb;
+}
+
+.listar-dropdownmen ul {
+    margin: 0;
+    padding: 8px 0;
+    position: relative;
+}
+
+.listar-select {
+    width: 100% !important;
+}
+
+.custom-select {
+    border: 1px solid #ececec !important;
+    height: 60px !important;
+    padding-left: 40px !important;
+}
+
+.user-profile-avatar {
+    position: relative;
+    display: inline-block;
+}
+
+ul > li {
+    list-style: none !important;
+}
+
+.custom-user {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.list-author-widget-contacts {
+    position: absolute;
+    left: 185px;
+    top: 89px;
+}
+
+.listar-dropdownmen ul:before,
+.listar-dropdownmen ul:after {
+    width: 0;
+    height: 0;
+    top: -14px;
+    left: 19px;
+    z-index: 2;
+    content: '';
+    position: absolute;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 14px solid #fff;
+}
+
+.listar-dropdownmen ul:after {
+    top: -14px;
+    left: 18px;
+    z-index: 1;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 14px solid #dbdbdb;
+}
+
+.listar-dropdownmen ul li {
+    padding: 0;
+    width: 100%;
+    float: left;
+    line-height: 40px;
+}
+
+.listar-dropdownmen ul li a {
+    color: #222;
+    width: 100%;
+    float: left;
+    padding: 0 20px;
+    line-height: inherit;
+}
+
+.listar-dropdownmen ul li a i,
+.listar-dropdownmen ul li a span {
+    float: left;
+    text-align: left;
+    line-height: 40px;
+}
+
+.listar-dropdownmen ul li a i {
+    font-size: 20px;
+    width: 30px;
+}
+
+a.listar-userlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.custom-color {
+    color: #FFFFFF;
+}
+
+.login-page {
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.has-error .form-control-feedback {
+    width: 100%;
+    text-align: left;
+    padding-left: 9px;
+    font-size: 12px;
+    font-weight: bold;
+    right: -8px;
+    position: relative;
+}
+
+.custom-radius {
+    border-radius: 0px !important;
+}
+
+.has-danger .select2-container--default.select2-container .select2-selection--multiple, .has-danger .select2-container--default .select2-selection--single {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075)
+}
+
+.order-lg-1 {
+    -ms-flex-order: 1;
+    order: 1
+}
+
+.order-lg-2 {
+    -ms-flex-order: 2;
+    order: 2
+}
+
+.modal-dialog {
+    bottom: 150px;
+    z-index: 999;
+}
+
+.listar-addlistingsteps .steps {
+    display: none;
+}
+
+.m-0 {
+    margin: 0px
+}
+
+.radio-custom > div > div {
+    display: flex;
+    float: left;
+}
+
+.fa-email:before {
+    content: "\f0e0";
+}
+
+.fa-phone_number:before {
+    content: "\f095";
+}
+
+.custom-icon {
+    position: absolute;
+    left: 120px;
+    top: -5px;
+}
+
+.listar-addlistingsteps .actions {
+    display: none
+}
+
+.radio-custom .form-control {
+    height: 20px !important;
+}
+
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important
+}
+
+.border-none {
+    border: none !important;
+}
+
+.help-block > strong {
+    color: #a94442;
+}
+
+.custom-width {
+    width: auto !important;
+    padding-right: 10px
+}
+
+#custom-padding-login {
+    padding: 0px;
+}
+
+#custom-padding-login-modal {
+    padding: 0px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+#custom-filter {
+    float: left;
+    margin-right: 15px;
+}
+
+.fa-star {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 4px;
+}
+
+.fa-star.active {
+    color: #ffa127;
+
+}
+
+.fa-star-o {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 4px;
+}
+
+#custom-rating {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.menu-item-has-children:hover > .sub-menu {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+#listar-content .listar-post {
+    position: relative;
+}
+
+.listar-postcomment {
+    position: absolute;
+    z-index: 9999;
+    top: 13px;
+    right: 15px;
+}
+
+.listar-listview .listar-themepost {
+    position: relative;
+}
+
+.listing-avatar {
+    position: absolute;
+    bottom: 20px;
+    right: 300px;
+    width: 60px;
+    height: 60px;
+    z-index: 10;
+}
+
+.listar-gridview .listing-avatar {
+    right: 10px;
+    bottom: 120px;
+}
+
+.card-listing .listing-avatar img {
+    width: 60px;
+    height: 60px;
+    border: 6px solid rgba(255, 255, 255, 0.4);
+    border-radius: 100%;
+}
+
+.avatar-tooltip {
+    position: absolute;
+    top: -50px;
+    padding: 15px 15px 15px 4px;
+    border-radius: 4px;
+    text-align: right;
+    background: #fff;
+    z-index: 10;
+    right: 0;
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+    margin-top: -20px;
+    min-width: 200px;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.listing-avatar:hover .avatar-tooltip {
+    margin-top: 1;
+    visibility: visible;
+    opacity: 1;
+}
+
+.avatar-tooltip:after {
+    top: 100%;
+    right: 22px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    border-top-color: #fff;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.image-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: repeat;
+    background-origin: content-box;
+}
+
+.custom-background {
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-origin: content-box;
+    width: 100% !important;
+    height: 137px;
+}
+
+.custom-background-my-listing {
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-origin: content-box;
+    width: 161px !important;
+    height: 137px;
+
+}
+
+.listar-dashboardwishlists .listar-themepost {
+    margin-bottom: 5px;
+}
+
+.listar-dashboardwishlists .listar-themepost:nth-child(n) {
+    border: 1px solid #ddd !important;
+}
+
+.custom-background-listing-grid {
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-origin: content-box;
+    height: 332px;
+}
+
+.custom-login {
+    opacity: 0;
+    position: absolute;
+}
+
+#terms-login {
+    display: block !important;
+}
+
+.custom-background-post {
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 792px;
+}
+
+.listar-inputwithicon {
+    padding-bottom: 10px !important;
+}
+
+.listar-navigation > ul > li {
+    padding: 7px 22px
+}
+
+.listar-overlapcontent {
+    padding: 50px 0 50px;
+}
+
+.listar-sectionspace {
+    padding: 30px 0;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.custom-map {
+    font-weight: bold;
+    color: #484848 !important;
+}
+
+.listar-themepostfoot-custom {
+    clear: both;
+    margin: 0 -20px;
+    font-size: 12px;
+    line-height: 44px;
+    padding: 0px 15px;
+    border-top: 1px solid #ddd !important;
+}
+
+.listar-themepostfoot-custom .listar-postbtns a {
+    color: #6fbf17 !important;
+    font-weight: bold;
+}
+
+.listar-custom {
+    font-size: 13px;
+    /*border-right: 1px solid #ccc;*/
+    padding: 25px 0px;
+    padding-top: 14px;
+    position: relative;
+}
+
+#custom-modal-listing:hover i {
+    color: #0A0A0A !important;
+}
+
+#custom-padding {
+    padding-right: 10px;
+}
+
+#custom-margin {
+    margin: 0px;
+}
+
+.listar-socialiconsborder li.listar-pinterest a {
+    border: 1px solid #FFFFFF;
+}
+
+#custom-modal-listing {
+    color: #484848 !important;
+}
+
+#listar-listing {
+    border-top: 1px solid #ddd;
+}
+
+#listar-btnquickinfo {
+    width: 44px;
+    float: left;
+    color: #5c5c5c !important;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    border-left: 1px solid #ddd;
+}
+
+#listar-btnquickinfo:hover i.icon-share3 {
+    color: #0A0A0A !important;
+}
+
+#listar-locationchosen {
+    padding-left: 38px;
+    padding-top: 17px;
+}
+
+.display-none {
+    display: none;
+}
+
+.custom-size {
+    font-size: 22px;
+}
+
+.listar-detailcontent .listar-formreviewarea {
+    margin-bottom: 25px;
+}
+
+.status-closed {
+    color: #ff4948;
+    font-weight: 700;
+}
+
+.current-status {
+    font-weight: 700;
+    color: #5ECFB1;
+}
+
+.icon-heart-active {
+    color: #6fbf17;
+}
+
+.gray > span > .icon-heart-active {
+    color: #bdbdbd;
+}
+
+.custom-span {
+    background: #5ECFB1;
+    padding: 2px 8px;
+    border-radius: 9px;
+    color: #ffff;
+    margin-right: 10px;
+}
+
+#listar-listingmap > div > .gm-style > div > div > div:nth-child(2) > div:nth-child(2) img {
+    width: 60px !important;
+    height: 60px !important;
+    border: 0px !important;
+    padding: 0px !important;
+    margin: 0px;
+    max-width: none;
+    top: 66px !important;
+    left: 33px !important;
+}
+
+.slider .tooltip-inner {
+    margin: auto;
+}
+
+.tooltip .tooltip-main {
+    margin-left: -460px;
+}
+
+.select2-container--default.select2-container .select2-selection--multiple {
+    color: #666;
+    width: 100%;
+    border-radius: 50px !important;
+    border: 1px solid #dadada !important;
+    display: flex;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+.custom-tag .form-group {
+    width: 100% !important;
+}
+
+.custom-background-listing-list {
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-origin: content-box;
+    height: 343px;
+}
+
+.slider .tooltip.top {
+    width: auto;
+}
+
+.parallax-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 273px 0;
+}
+
+.listar-comment {
+    position: relative;
+}
+
+#custom-menu .hover-ul {
+    display: inline-block;
+    position: absolute;
+    top: 103px;
+    z-index: 999;
+    right: 85px;
+    background: #2457cf;
+}
+
+#custom-menu .hover-ul a.listar-helpful {
+    color: #FFFFFF;
+}
+
+.listar-contactinfo .listar-socialicons li.listar-pinterest a:hover i {
+    color: rgb(230, 0, 35);
+}
+
+#custom-menu .hover-ul:hover ul.sub-menu-action {
+    margin: 30px 0 0 0;
+    opacity: 1;
+    visibility: visible;
+    min-width: 150px;
+    top: 15px;
+    left: 0;
+    z-index: 1;
+    padding: 10px 0;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    transition: all .2s ease-in-out;
+    height: 200px;
+    width: 180px;
+    position: absolute !important;
+}
+
+.leave-rating {
+    display: inline-block;
+}
+
+.leave-rating input[type="radio"] {
+    display: none;
+}
+
+.leave-rating label:hover:before, .leave-rating label.selected:before {
+    content: "\f005";
+}
+
+.leave-rating:hover input[type="radio"]:checked ~ label:before, .leave-rating input[type="radio"]:checked ~ label:before, .leave-rating label:hover ~ label:before {
+    content: "\f005" !important;
+}
+
+ul.sub-menu-action {
+    margin: 30px 0 0 0;
+    opacity: 0;
+    visibility: hidden;
+    min-width: 150px;
+    top: 50px;
+    left: 0;
+    z-index: 1;
+    padding: 10px 0;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    transition: all .2s ease-in-out;
+    height: 200px;
+    width: 180px;
+    position: absolute !important;
+}
+
+.m-r-10 {
+    margin-right: 20px;
+}
+
+ul.sub-menu-action > li {
+    display: inline-block !important;
+    text-align: left;
+}
+
+.in {
+    display: inline-block;
+    width: 100%;
+}
+
+.reviews-comments-item {
+    display: flex;
+    padding-top: 15px;
+}
+
+.reviews-comments-item-text p {
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.review-comments-avatar {
+    padding-right: 15px;
+}
+
+.m-t-20 {
+    margin-top: 20px
+}
+
+ul.sub-menu-action > li > a {
+    color: #5c5c5c;
+}
+
+.hover-ul {
+    display: inline-block;
+    position: absolute;
+    top: 113px;
+    right: 50px;
+}
+
+.listar-placespost .listar-postcontent h3 {
+    padding: 0 15px 0 0;
+}
+
+.modal-backdrop {
+    z-index: -1;
+}
+
